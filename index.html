@@ -1,0 +1,139 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agument</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel='stylesheet' href='https://unpkg.com/ress/dist/ress.min.css'>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style_home.css">
+    <link rel='stylesheet' href='./css/modal.css'>
+</head>
+<script type="text/javascript" src="js/ncmb.min.js" charset="utf-8"></script>
+<body>
+    <div id="wrapper">
+        <header>
+            <div class="headerInner">
+                <h1 class="logo">Agument</h1>
+                <div class="login">
+                    <a class="js-modal-open" href=" ">
+                        Login
+                    </a>
+                </div>
+            </div>
+            
+            
+            
+            <div class="modal js-modal" style="z-index:2;">
+                <div class="modal__bg js-modal-close"></div>
+                <div class="modal__content">
+                    <link rel='stylesheet' href='./css/sign.css'>
+                    <div class="form-structor">
+                        <div class="signup">
+                            <h2 class="form-title" id="signup"><span>or</span>Sign up</h2>
+                            <div class="form-holder">
+                                <!-- <input id="username_up" type="text" class="input" required="required" placeholder="UserName" /> -->
+                                <input id="mailAddress_up" type="email" class="input" placeholder="MailAddress" />
+                                <!-- <input id="password_up" type="password" class="input" required="required" placeholder="Password" /> -->
+                            </div>
+                            <button onclick="OnclicSubmitSignUP()" class="submit-btn" onClick="">Sign up</button>
+                        </div>
+                        <div class="login slide-up">
+                            <div class="center">
+                                <h2 class="form-title" id="login"><span>or</span>Log in</h2>
+                                <div class="form-holder">
+                                    <input id="mailAddress_in" type="email" class="input" required="required" placeholder="Email Address" />
+                                    <input id="password_in" type="password" class="input" required="required" placeholder="Password" />
+                                </div>
+                                <button onclick="OnclicSubmitSignIN()" class="submit-btn" style="color: white;">Log in</button>
+                            </div>
+                        </div>
+                    </div>
+                    <script src="./js/sign_design.js"></script>
+                </div><!--modal__inner-->
+            </div><!--modal-->
+            
+            
+            
+        </header>
+    </div>
+    
+    <div class="main_body">
+        <img src="./img/Agument_photo.png" class="agument_img" alt="Agument" width="900" min-width="20">
+        <div>
+            <h2 class="WhatAgument">
+                What Agument
+                
+            </h2>
+            <a class="title_exp">
+                Augment は音楽ゲームのように曲の譜面を表示し、リアルタイムでプレイ端末のマイクの音を解析することでユーザーが弾いてる音を認識し、譜面との正誤判定をすることで、演奏の正確度がフィードバックされ、楽譜に対する知識がなくても直感的に楽器を弾けるようになるクロスプラットフォームな音楽ゲームです。
+            </a>
+        </div>
+        <div class="w-100"></div>
+        <a type="button" class="btn btn-outline-primary" href="Agument_testBuild_2.zip" download="Agument_testBuild_2.zip">Agumentをダウンロード(テスト版)</a>
+        <div class="w-100"></div>
+        <div class="pos-wapper" style="z-index: 0;">
+            <h1 class="pos-one">
+                AnyOne
+            </h1>
+            <h1 class="pos-time">
+                AnyTime
+            </h1>
+            <h1 class="pos-where">
+                AnyWhere
+            </h1>
+        </div>
+        <dl class="PratForm">
+            <dt>対応プラットフォーム</dt>
+            <dd>
+                <a>
+                    IOS
+                </a>
+                <a>
+                    Android
+                </a>
+                <a>
+                    Windows
+                </a>
+            </dd>
+        </dl>
+        <footer>
+            <!-- <div class="footerInner">
+                <small style="color: white;">
+                    twitter
+                    mell
+                </small>
+            </div> -->
+        </footer>
+        
+        <!-- <FireBaseLoad>
+            <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
+            
+            <script>
+                // 構成オブジェクト
+                var firebaseConfig = {
+                    apiKey: "AIzaSyCtA1in1sF0fB0knk3KIIJYZJ3WhR3OX-Q",
+                    authDomain: "test2-d7ef9.firebaseapp.com",
+                    databaseURL: "https://test2-d7ef9.firebaseio.com",
+                    projectId: "test2-d7ef9",
+                    storageBucket: "test2-d7ef9.appspot.com",
+                    messagingSenderId: "92152082118",
+                    appId: "1:92152082118:web:f0e0c0c80737945b7e71c7",
+                    measurementId: "G-5N0LSVMTL3"
+                };
+                // 初期化
+                firebase.initializeApp(firebaseConfig);
+            </script>
+        </FireBaseLoad> -->
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="./js/modal.js"></script>
+        <script src="./js/sign.js"></script>
+        <script src="js/jQuery-3.5.0.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,143 @@
+h1{
+    color:black;
+}
+
+h2{
+    color:black;
+}
+
+p{
+    color:black;
+}
+
+img{
+    float: left;
+}
+
+dl{
+    color:black;
+}
+
+/* .agument_img{
+    ここからbox-shadowプロパティを追加
+    box-shadow: -10px -10px -15px -10px;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    margin-top: 0;margin-left: 0;margin-right: 0;margin-bottom: 0;
+    padding:0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: white;
+    margin-top: 0;margin-left: 0;margin-right: 0;margin-bottom: 0;
+    padding:0;
+}
+.main_body{
+    Z-index:0;
+}
+#wrapper {
+    width:100%;
+    overflow:hidden;
+}
+
+body{
+    font-family:sans-serif;
+}
+
+header{
+    background: #ffffff;
+}
+
+.Form{
+    clear: black;
+}
+
+.login a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.pos-one{
+    Z-index:0;
+    position: relative;
+    top: 10px;
+    left: 0px;
+}
+
+.pos-time{
+    Z-index:0;
+    position: relative;
+    top:20px;
+    left:50px;
+}
+
+.pos-where{
+    Z-index:0;
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+
+
+.login a:hover{
+    text-shadow: 10px 10px 0px rgb(255, 230, 0);
+}
+
+.title_exp{
+    text-align: center;
+    max-width: 1400px;
+    font-size: 20px;
+    margin: auto;
+    line-height: 50px;
+}
+
+.WhatAgument{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin: auto;
+    z-index : 0;
+    /* ここからtext-shadowプロパティを追加 */
+    text-shadow: 2px 2px 0px rgb(255, 230, 0);
+}
+
+.headerInner{
+    max-height: 50px;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer{
+    background: black;
+}
+
+.footerInner{
+    width: 650px;
+    height: 25px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deco-box {
+    position: absolute;
+    background: #fad238;
+    height: 50pt;
+    bottom: -20px;
+    left: -105px;
+    width: 60%;
+    z-index: -1;
+    opacity: .5;
+}

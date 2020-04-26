@@ -1,0 +1,26 @@
+
+h1{
+    text-align: center;
+}
+
+.PostForm{
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto 20px;
+    border-spacing: 0;
+}
+
+.PostForm th,
+.PostForm td{
+  padding: 2rem 0;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.PostForm th{
+  text-align: left;
+  color: #606c76;
+}
+
+.text-center{
+    text-align: center;
+}

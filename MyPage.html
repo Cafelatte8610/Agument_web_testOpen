@@ -1,0 +1,69 @@
+<!-- <!DOCTYPE html> -->
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPage</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style_MyPage.css">
+</head>
+<script type="text/javascript" src="js/ncmb.min.js" charset="utf-8"></script>
+
+<header>
+    <div class="headerInner">
+        <h1 class="logo">Agument</h1>
+    </div>
+</header>
+
+<body>
+    <h1>楽曲の投稿</h1>
+    <form name="Music_form" action="thanks.html">
+        <table class="PostForm">
+            <tr>
+                <th><label for="title">タイトル</label></th>
+                <td><input id="title" required="required" type="text" name="title" placeholder="タイトルを入れてください"></td>
+            </tr>
+            <tr>
+                <th><label for="comment">曲の説明</label></th>
+                <td><textarea id="comment" required="required" name="comment" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <th><label for="MIDIFile">曲のMIDIファイル</label></th>
+                <td><input id="filepath" required="required" name="MIDIFile" type="file"></output></td>
+            </tr>
+        </table>
+    </form>
+    <div class="text-center">
+        <input type="button" value="Submit" onClick="MIDISubmit()">
+    </div>
+    <!-- <script type="text/javascript" src="./js/MIDIFileSubmit.js"></script> -->
+    <script type="text/javascript" src="./js/MIDIFileSubmit.js"></script>
+    <!-- <FireBaseLoad>
+        <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-database.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-storage.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-auth.js"></script>
+        <script>
+            // 構成オブジェクト
+            var firebaseConfig = {
+                apiKey: "AIzaSyCtA1in1sF0fB0knk3KIIJYZJ3WhR3OX-Q",
+                authDomain: "test2-d7ef9.firebaseapp.com",
+                databaseURL: "https://test2-d7ef9.firebaseio.com",
+                projectId: "test2-d7ef9",
+                storageBucket: "test2-d7ef9.appspot.com",
+                messagingSenderId: "92152082118",
+                appId: "1:92152082118:web:f0e0c0c80737945b7e71c7",
+                measurementId: "G-5N0LSVMTL3"
+            };
+            // 初期化
+            firebase.initializeApp(firebaseConfig);
+        </script>
+    </FireBaseLoad> -->
+    <script type="text/javascript" src="js/jQuery-3.5.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
