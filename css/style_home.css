@@ -40,10 +40,11 @@ body{
     padding:0;
 }
 .main_body{
-    Z-index:0;
+    margin-right: auto;
+    margin-left : auto;
 }
 #wrapper {
-    width:100%;
+
     overflow:hidden;
 }
 
@@ -111,7 +112,6 @@ header{
 
 .headerInner{
     max-height: 50px;
-    max-width: 1000px;
     margin: auto;
     display: flex;
     justify-content: space-around;
@@ -140,4 +140,8 @@ footer{
     width: 60%;
     z-index: -1;
     opacity: .5;
+}
+
+.HomePhoto img{
+    width: 100%;
 }
