@@ -34,9 +34,9 @@ function OnclicSubmitSignIN(){
 var re_email;
 
 function OnclicSubmitSignUP(){
-    var userName=document.getElementById("username_up").value;
+//     var userName=document.getElementById("username_up").value;
     var email = document.getElementById("mailAddress_up").value;
-    var pass  = document.getElementById("password_up").value;
+//     var pass  = document.getElementById("password_up").value;
 
     
     ncmb.User.requestSignUpEmail(email)
